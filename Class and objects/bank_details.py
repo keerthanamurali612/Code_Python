@@ -6,6 +6,11 @@ class Bank:
         self.accountName = account_name
         self.avaBal=balance
 
+    def create_acc(self):
+        if self.accountNum==123456:
+            print("already created! Create new account Number")
+        else:
+            print("new account")
     def balance_acc(self):
         if self.avaBal<=100:
             print ("withdraw")
@@ -17,6 +22,7 @@ class Bank:
        print (f"Account Number :{self.accountNum},Account Name :{self.accountName}")
 
 
-b1=Bank(4676458757,"Rudra",150)
+b1=Bank(123456,"Rudra",150)
 b1.display()
 b1.balance_acc()
+b1.create_acc()
