@@ -22,7 +22,7 @@ class Bank:
        print (f"Account Number :{self.accountNum},Account Name :{self.accountName}")
 
 
-b1=Bank(123456,"Rudra",150)
+b1=Bank(32427678234,"Rudra",150)
 b1.display()
 b1.balance_acc()
 b1.create_acc()
