@@ -11,8 +11,8 @@ class Calculate:
         return num1 * num2
 
 result1=Calculate.add(60,20)
-result2=Calculate.sub(60,20)
-result3=Calculate.mul(60,20)
+result2=Calculate.sub(40,10)
+result3=Calculate.mul(30,20)
 
 print("The addition is:",result1)
 print("The Subtraction is:",result2)
