@@ -1,20 +1,10 @@
 #Calculate the product of elements in a list using a for loop:
 
-# list=[2,3,4]
-# product=2
-#
-# for i in list:
-#     total=product * i
-#
-# print(total)
+list=[1,2,3,4]
+product=1
+
+for i in list:
+    product = product * i
+print(f"The product of elements in a list : {product}")
 
 
-def multiply(list):
-    for i in list:
-        result = result * i
-        return result
-
-
-
-num=multiply(list=[2,7,3])
-print(num)
