@@ -1,3 +1,5 @@
+#linked list
+
 class Node:
     # Singly linked node
     def __init__(self, data=None):
