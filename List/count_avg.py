@@ -19,3 +19,5 @@ avg = count /len(List)
 
 print("sum = ", count)
 print("average = ", avg)
+
+
