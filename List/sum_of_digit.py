@@ -11,9 +11,9 @@ print("The original list is : " + str(test_list))
 # Sum of number digits in List
 # using loop + str()
 res = []
-for ele in test_list:
+for element in test_list:
     sum = 0
-    for digit in str(ele):
+    for digit in str(element):
         sum += int(digit)
     res.append(sum)
 
